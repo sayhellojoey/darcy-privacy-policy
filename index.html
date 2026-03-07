@@ -5,199 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Darcy Privacy Policy</title>
     <style>
-        :root {
-            --bg-color: #ffffff;
-            --text-main: #1a1a1a;
-            --text-muted: #666666;
-            --accent: #007AFF; /* iOS Blue */
-            --border-color: #eaeaea;
-            --font-stack: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", sans-serif;
-        }
-
         body {
-            font-family: var(--font-stack);
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            line-height: 1.6;
-            max-width: 720px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+            line-height: 1.5;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 60px 24px;
-            -webkit-font-smoothing: antialiased;
+            padding: 40px 20px;
         }
 
-        header {
-            margin-bottom: 48px;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 24px;
-        }
+        h1 { font-size: 2.2em; margin-top: 0; }
+        h2 { font-size: 1.5em; margin-top: 2em; }
+        h3 { font-size: 1.2em; margin-top: 1.5em; }
 
-        h1 {
-            font-size: 32px;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            margin-bottom: 8px;
-        }
+        p, li { font-size: 1em; margin-bottom: 1em; }
+        
+        ul { padding-left: 1.5em; }
+        
+        a { color: #ffffff; text-decoration: underline; }
 
-        .last-updated {
-            font-size: 14px;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
+        strong { font-weight: 600; }
 
-        .hero-text {
-            font-size: 18px;
-            color: var(--text-main);
-            margin-bottom: 32px;
-            font-weight: 400;
-        }
+        header { margin-bottom: 3em; }
 
-        h2 {
-            font-size: 22px;
-            font-weight: 600;
-            margin-top: 48px;
-            margin-bottom: 16px;
-            display: flex;
-            align-items: center;
-        }
-
-        h3 {
-            font-size: 18px;
-            font-weight: 600;
-            margin-top: 32px;
-            margin-bottom: 12px;
-        }
-
-        ul {
-            padding-left: 20px;
-            margin-bottom: 24px;
-        }
-
-        li {
-            margin-bottom: 12px;
-        }
-
-        li strong {
-            color: var(--text-main);
-        }
-
-        .highlight-box {
-            background: #f8f8f8;
-            border-radius: 12px;
-            padding: 24px;
-            margin: 24px 0;
-            border: 1px solid var(--border-color);
-        }
-
-        footer {
-            margin-top: 80px;
-            padding-top: 40px;
-            border-top: 1px solid var(--border-color);
-            text-align: center;
-            color: var(--text-muted);
-            font-size: 14px;
-        }
-
-        a {
-            color: var(--accent);
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        @media (max-width: 600px) {
-            body { padding: 40px 20px; }
-            h1 { font-size: 28px; }
-        }
+        .date { margin-top: 1em; }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Darcy Privacy Policy</h1>
-        <div class="last-updated">Last updated: March 7, 2026</div>
-    </header>
+<header>
+    <h1>Darcy Privacy Policy</h1>
+    <p class="date">Last updated: March 7, 2026</p>
+</header>
 
-    <main>
-        <p class="hero-text">Darcy is architected as a standalone utility to help you track personal health and journey information while keeping your data private.</p>
-        
-        <p>Your personal journey data stays on your device. We do not maintain external servers, we do not track your activity, and we have no access to your identity or health records.</p>
+<main>
+    <p>Darcy is architected as a standalone utility to help you track personal health and journey information while keeping your data private.</p>
+    <p>Your personal journey data stays on your device. We do not maintain external servers, we do not track your activity, and we have no access to your identity or health records.</p>
 
-        <section>
-            <h2>1. Data Control</h2>
-            <p>Darcy stores all health data, media, and logs exclusively in your device's local storage using iOS-native encryption.</p>
-            <ul>
-                <li>Appointments</li>
-                <li>Medication schedules and intake logs</li>
-                <li>Journey notes, photos, and videos</li>
-                <li>Lab results and chart points</li>
-                <li>Profile fields you choose to enter (such as name, birthday, and pronouns)</li>
-            </ul>
-            <p><strong>All information is stored locally on your device.</strong></p>
+    <h2>1. Data Control</h2>
+    <p>Darcy stores all health data, media, and logs exclusively in your device's local storage using iOS-native encryption.</p>
+    <ul>
+        <li>Appointments</li>
+        <li>Medication schedules and intake logs</li>
+        <li>Journey notes, photos, and videos</li>
+        <li>Lab results and chart points</li>
+        <li>Profile fields you choose to enter (such as name, birthday, and pronouns)</li>
+    </ul>
+    <p><strong>All information is stored locally on your device.</strong></p>
 
-            <div class="highlight-box">
-                <h3>On-Device &amp; Network Processing</h3>
-                <p>To provide high-density insights, Darcy performs the following operations:</p>
-                <p><strong>Face Alignment (Pro):</strong> Darcy uses Apple’s Vision Framework to detect facial landmarks for image stabilization during the Evolution Scrub. This processing happens entirely in the device's neural engine. No biometric signatures are ever transmitted or stored externally.</p>
-            </div>
-        </section>
+    <h3>On-Device & Network Processing</h3>
+    <p>To provide high-density insights, Darcy performs the following operations:</p>
+    <p><strong>Face Alignment (Pro):</strong> Darcy uses Apple’s Vision Framework to detect facial landmarks for image stabilization during the Evolution Scrub. This processing happens entirely in the device's neural engine. No biometric signatures are ever transmitted or stored externally.</p>
 
-        <section>
-            <h2>2. Permissions Used</h2>
-            <p>Darcy may request the following permissions to enable core features:</p>
-            <ul>
-                <li><strong>Biometrics (Face ID / Touch ID):</strong> For secure, private app access via local authentication.</li>
-                <li><strong>Photos and Camera:</strong> Used to add images or videos to journey entries.</li>
-                <li><strong>Microphone and Speech Recognition:</strong> Used for dictation and media capture.</li>
-                <li><strong>Calendar:</strong> Optional import of appointments.</li>
-                <li><strong>Notifications:</strong> Used for medication and appointment reminders.</li>
-                <li><strong>Network:</strong> Used exclusively for the curated music discovery synchronization.</li>
-            </ul>
-            <p>You can change or revoke these permissions at any time in your device’s iOS Settings.</p>
-        </section>
+    <h2>2. Permissions Used</h2>
+    <p>Darcy may request the following permissions to enable core features:</p>
+    <ul>
+        <li><strong>Biometrics (Face ID / Touch ID):</strong> For secure, private app access via local authentication.</li>
+        <li><strong>Photos and Camera:</strong> Used to add images or videos to journey entries.</li>
+        <li><strong>Microphone and Speech Recognition:</strong> Used for dictation and media capture.</li>
+        <li><strong>Calendar:</strong> Optional import of appointments.</li>
+        <li><strong>Notifications:</strong> Used for medication and appointment reminders.</li>
+        <li><strong>Network:</strong> Used exclusively for the curated music discovery synchronization.</li>
+    </ul>
+    <p>You can change or revoke these permissions at any time in your device’s iOS Settings.</p>
 
-        <section>
-            <h2>3. Data Collection and Sharing</h2>
-            <p>Darcy does not collect, transmit, or store personal data on external servers.</p>
-            <ul>
-                <li>Darcy has no remote access capability to your private data.</li>
-                <li>No backend account system is used for storing health records.</li>
-                <li>Your data remains on your device unless you choose to export it.</li>
-                <li>Darcy does not require account sign-in.</li>
-                <li>App unlock uses your device’s authentication system (Face ID, Touch ID, or passcode).</li>
-            </ul>
-        </section>
+    <h2>3. Data Collection and Sharing</h2>
+    <p>Darcy does not collect, transmit, or store personal data on external servers.</p>
+    <ul>
+        <li>Darcy has no remote access capability to your private data.</li>
+        <li>No backend account system is used for storing health records.</li>
+        <li>Your data remains on your device unless you choose to export it.</li>
+        <li>Darcy does not require account sign-in.</li>
+        <li>App unlock uses your device’s authentication system (Face ID, Touch ID, or passcode).</li>
+    </ul>
 
-        <section>
-            <h2>4. Data Security</h2>
-            <p>Because your information is stored locally on your device, its protection depends on the security features of your device and operating system. Darcy relies on iOS security features such as device encryption and authentication to help protect your data.</p>
+    <h2>4. Data Security</h2>
+    <p>Because your information is stored locally on your device, its protection depends on the security features of your device and operating system. Darcy relies on iOS security features such as device encryption and authentication to help protect your data.</p>
 
-            <h3>Your Controls</h3>
-            <p>You remain in full control of your data:</p>
-            <ul>
-                <li>You can export your data from Settings.</li>
-                <li>You can delete your local data from Settings.</li>
-                <li>You can manage permissions in iOS Settings.</li>
-                <li><strong>Note:</strong> Deleting the app will also remove all locally stored data.</li>
-            </ul>
-        </section>
+    <h3>Your Controls</h3>
+    <p>You remain in full control of your data:</p>
+    <ul>
+        <li>You can export your data from Settings.</li>
+        <li>You can delete your local data from Settings.</li>
+        <li>You can manage permissions in iOS Settings.</li>
+        <li><strong>Note:</strong> Deleting the app will also remove all locally stored data.</li>
+    </ul>
 
-        <section>
-            <h2>5. Medical &amp; HIPAA Disclaimer</h2>
-            <p>Darcy is an organizational and tracking tool, not a medical device. We do not provide diagnosis, medical advice, or treatment. Darcy is not a "Covered Entity" under HIPAA as we do not receive, maintain, or transmit Protected Health Information (PHI) to our own systems. Always consult a qualified healthcare professional for medical decisions.</p>
-        </section>
+    <h2>5. Medical & HIPAA Disclaimer</h2>
+    <p>Darcy is an organizational and tracking tool, not a medical device. We do not provide diagnosis, medical advice, or treatment. Darcy is not a "Covered Entity" under HIPAA as we do not receive, maintain, or transmit Protected Health Information (PHI) to our own systems. Always consult a qualified healthcare professional for medical decisions.</p>
 
-        <section>
-            <h2>Changes to This Policy</h2>
-            <p>This policy may be updated to reflect technical changes in the app. Updates will be reflected by the “Last updated” date at the top of this page.</p>
-        </section>
-    </main>
+    <h2>Changes to This Policy</h2>
+    <p>This policy may be updated to reflect technical changes in the app. Updates will be reflected by the “Last updated” date at the top of this page.</p>
 
-    <footer>
-        <p>Contact: <a href="mailto:hello@sayhellojoey.com">hello@sayhellojoey.com</a></p>
-    </footer>
+    <p>Contact: <a href="mailto:hello@sayhellojoey.com">hello@sayhellojoey.com</a></p>
+</main>
 
 </body>
 </html>
