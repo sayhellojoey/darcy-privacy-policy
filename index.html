@@ -1,104 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Darcy Privacy Policy</title>
-<style>
-  body {
-    background-color: #000000;
-    color: #ffffff;
-    font-family: -apple-system, sans-serif;
-    line-height: 1.5;
-    padding: 20px;
-    max-width: 800px;
-    margin: auto;
-  }
-  h1, h2, h3 {
-    color: #ffffff;
-    font-weight: bold;
-  }
-  a {
-    color: #ffffff;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darcy Privacy Policy</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { margin-top: 30px; color: #000; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        .footer { margin-top: 50px; font-size: 0.9em; color: #666; border-top: 1px solid #eee; padding-top: 20px; }
+    </style>
 </head>
 <body>
 
-<h1>Darcy Privacy Policy</h1>
-<p>Last updated: March 18, 2026</p>
+    <h1>Darcy Privacy Policy</h1>
+    <p><strong>Last updated: March 19, 2026</strong></p>
 
-<p>Darcy is architected as a standalone utility to help you track personal health and journey information while keeping your data private. Your personal journey data stays on your device. We do not maintain external servers, we do not track your activity, and we have no access to your identity or health records.</p>
+    <p>Darcy is architected as a standalone utility to help you track personal health and journey information while keeping your data private. Your personal journey data stays on your device. We do not maintain external servers, we do not track your activity, and we have no access to your identity or health records.</p>
 
-<h2>1. Data Control</h2>
+    <h2>1. Data Control & Storage</h2>
+    <p>Darcy stores health data, media, and logs locally on your device. If you choose to export data, the exported files are created by you and stored wherever you save them.</p>
+    <ul>
+        <li>Appointments</li>
+        <li>Medication schedules and intake logs</li>
+        <li>Journey notes, photos, and videos</li>
+        <li>Lab results and chart points</li>
+        <li>Profile fields (name, birthday, pronouns, etc.)</li>
+    </ul>
+    <p><strong>iCloud Synchronization:</strong> If enabled, Darcy utilizes Apple iCloud to synchronize your data across your own private devices. This data is end-to-end encrypted within your personal iCloud account; Darcy/Antimatterlab has no access to this cloud-stored information.</p>
 
-<p>Darcy stores all health data, media, and logs exclusively in your device's local storage.</p>
+    <h2>2. On-Device & Network Processing</h2>
+    <p>To provide high-density insights, Darcy performs the following operations:</p>
+    <ul>
+        <li><strong>Face Alignment (Pro):</strong> Darcy uses Apple’s Vision Framework to detect facial landmarks for image stabilization during the Evolution Scrub. This processing happens entirely in the device's neural engine. No biometric signatures are ever transmitted or stored externally.</li>
+    </ul>
 
-<ul>
-  <li>Appointments</li>
-  <li>Medication schedules and intake logs</li>
-  <li>Journey notes, photos, and videos</li>
-  <li>Lab results and chart points</li>
-  <li>Profile fields you choose to enter (such as name, birthday, and pronouns)</li>
-</ul>
+    <h2>3. Permissions Used</h2>
+    <p>Darcy may request the following permissions to enable core features:</p>
+    <ul>
+        <li><strong>Biometrics (Face ID / Touch ID):</strong> For secure, private app access via local authentication.</li>
+        <li><strong>Photos and Camera:</strong> Used to add images or videos to journey entries.</li>
+        <li><strong>Microphone and Speech Recognition:</strong> Used for dictation and media capture.</li>
+        <li><strong>Calendar:</strong> Optional import of appointments.</li>
+        <li><strong>Notifications:</strong> Used for medication and appointment reminders.</li>
+        <li><strong>Network:</strong> Used exclusively to fetch metadata for the Curated Evolution Catalog (via GitHub Gist). No user-identifiable data, IP addresses, or tracking tokens are transmitted to or stored by any third-party during this process.</li>
+    </ul>
 
-<p>All information is stored locally on your device.</p>
+    <h2>4. Data Collection and Sharing</h2>
+    <p>Darcy does not collect, transmit, or store personal data on external servers controlled by the developer.</p>
+    <ul>
+        <li>Darcy has no remote access capability to your private data.</li>
+        <li>No backend account system is used for storing health records.</li>
+        <li>Your data remains on your device (or your personal iCloud) unless you choose to export it.</li>
+        <li>Darcy does not require account sign-in.</li>
+    </ul>
 
-<h3>On-Device & Network Processing</h3>
+    <h2>5. Data Security</h2>
+    <p>Because your information is stored locally on your device, its protection depends on the security features of your device. Darcy uses a combination of iOS protections and app features such as app lock, encrypted backups, and user-controlled privacy settings to help protect your data.</p>
 
-<p>To provide high-density insights, Darcy performs the following operations:</p>
+    <h2>6. Medical & HIPAA Disclaimer</h2>
+    <p>Darcy is an organizational and tracking tool, not a medical device. We do not provide diagnosis, medical advice, or treatment. Darcy is not a "Covered Entity" under HIPAA as we do not receive, maintain, or transmit Protected Health Information (PHI) to our own systems. Always consult a qualified healthcare professional for medical decisions.</p>
 
-<p><strong>Face Alignment (Pro):</strong> Darcy uses Apple’s Vision Framework to detect facial landmarks for image stabilization during the Evolution Scrub. This processing happens entirely in the device's neural engine. No biometric signatures are ever transmitted or stored externally.</p>
+    <h2>7. Lifetime Access & Maintenance</h2>
+    <p>Darcy Founders and Pro tiers are one-time, non-consumable purchases. This purchase grants access to Pro features for the functional lifespan of the application on compatible iOS versions. We do not use recurring subscriptions.</p>
 
-<h2>2. Permissions Used</h2>
+    <h2>8. Changes to This Policy</h2>
+    <p>This policy may be updated to reflect technical changes in the app. Updates will be reflected by the “Last updated” date at the top of this page.</p>
 
-<p>Darcy may request the following permissions to enable core features:</p>
-
-<ul>
-  <li><strong>Biometrics (Face ID / Touch ID):</strong> For secure, private app access via local authentication.</li>
-  <li><strong>Photos and Camera:</strong> Used to add images or videos to journey entries.</li>
-  <li><strong>Microphone and Speech Recognition:</strong> Used for dictation and media capture.</li>
-  <li><strong>Calendar:</strong> Optional import of appointments.</li>
-  <li><strong>Notifications:</strong> Used for medication and appointment reminders.</li>
-  <li><strong>Network:</strong> Used exclusively for the curated music discovery synchronization.</li>
-</ul>
-
-<p>You can change or revoke these permissions at any time in your device’s iOS Settings.</p>
-
-<h2>3. Data Collection and Sharing</h2>
-
-<p>Darcy does not collect, transmit, or store personal data on external servers.</p>
-
-<ul>
-  <li>Darcy has no remote access capability to your private data.</li>
-  <li>No backend account system is used for storing health records.</li>
-  <li>Your data remains on your device unless you choose to export it.</li>
-  <li>Darcy does not require account sign-in.</li>
-  <li>App unlock uses your device’s authentication system (Face ID, Touch ID, or passcode).</li>
-</ul>
-
-<h2>4. Data Security</h2>
-
-<p>Because your information is stored locally on your device, Darcy uses a combination of iOS security features and app-specific safeguards to help protect your data. These may include device passcode and biometric protections provided by iOS, as well as Darcy features such as app lock, encrypted backup support, and user-controlled reminder privacy settings. The level of protection may also depend on how your device is configured, including whether a device passcode is enabled and whether notification previews are shown on the lock screen.</p>
-
-<h3>Your Controls</h3>
-
-<p>You remain in full control of your data:</p>
-
-<ul>
-  <li>You can export your data from Settings.</li>
-  <li>You can delete your local data from Settings.</li>
-  <li>You can manage permissions in iOS Settings.</li>
-  <li><strong>Note:</strong> Deleting the app will also remove all locally stored data.</li>
-</ul>
-
-<h2>5. Medical & HIPAA Disclaimer</h2>
-
-<p>Darcy is an organizational and tracking tool, not a medical device. We do not provide diagnosis, medical advice, or treatment. Darcy is not a "Covered Entity" under HIPAA as we do not receive, maintain, or transmit Protected Health Information (PHI) to our own systems. Always consult a qualified healthcare professional for medical decisions.</p>
-
-<h2>6. Changes to This Policy</h2>
-
-<p>This policy may be updated to reflect technical changes in the app. Updates will be reflected by the “Last updated” date at the top of this page.</p>
-
-<p>Contact: <a href="mailto:darcy@sayhellojoey.com">darcy@sayhellojoey.com</a></p>
+    <div class="footer">
+        <p>Contact: <a href="mailto:darcy@sayhellojoey.com">darcy@sayhellojoey.com</a></p>
+    </div>
 
 </body>
 </html>
